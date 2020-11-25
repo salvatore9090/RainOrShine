@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA7A7C2256A32B8002A0E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7A7C1256A32B8002A0E82 /* AppDelegate.swift */; };
+		9DA7A7C4256A32B8002A0E82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7A7C3256A32B8002A0E82 /* SceneDelegate.swift */; };
+		9DA7A7C6256A32B8002A0E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7A7C5256A32B8002A0E82 /* ViewController.swift */; };
+		9DA7A7C9256A32B9002A0E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7A7C7256A32B9002A0E82 /* Main.storyboard */; };
+		9DA7A7CC256A32B9002A0E82 /* RainOrShine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7A7CA256A32B9002A0E82 /* RainOrShine.xcdatamodeld */; };
+		9DA7A7CE256A32BB002A0E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7A7CD256A32BB002A0E82 /* Assets.xcassets */; };
+		9DA7A7D1256A32BB002A0E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7A7CF256A32BB002A0E82 /* LaunchScreen.storyboard */; };
+		9DA7A7D9256A5123002A0E82 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7A7D8256A5123002A0E82 /* image.png */; };
+		9DA7A7DB256A59C7002A0E82 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7A7DA256A59C7002A0E82 /* Podfile */; };
+		C2759822EDE9BFF252FC7E1E /* Pods_RainOrShine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704A50E2AB1DD00A0C6F999A /* Pods_RainOrShine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001AF2EA565B897E34D39409 /* Pods-RainOrShine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOrShine.release.xcconfig"; path = "Target Support Files/Pods-RainOrShine/Pods-RainOrShine.release.xcconfig"; sourceTree = "<group>"; };
+		43854100652B2BE1B27E0583 /* Pods-RainOrShine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainOrShine.debug.xcconfig"; path = "Target Support Files/Pods-RainOrShine/Pods-RainOrShine.debug.xcconfig"; sourceTree = "<group>"; };
+		704A50E2AB1DD00A0C6F999A /* Pods_RainOrShine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainOrShine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7A7BE256A32B8002A0E82 /* RainOrShine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainOrShine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7A7C1256A32B8002A0E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DA7A7C3256A32B8002A0E82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DA7A7C5256A32B8002A0E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DA7A7C8256A32B9002A0E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA7A7CB256A32B9002A0E82 /* RainOrShine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RainOrShine.xcdatamodel; sourceTree = "<group>"; };
+		9DA7A7CD256A32BB002A0E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA7A7D0256A32BB002A0E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA7A7D2256A32BB002A0E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA7A7D8256A5123002A0E82 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		9DA7A7DA256A59C7002A0E82 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA7A7BB256A32B8002A0E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2759822EDE9BFF252FC7E1E /* Pods_RainOrShine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1186D6D7554BB9ACE92FE62B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704A50E2AB1DD00A0C6F999A /* Pods_RainOrShine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F0C75552546F695CFBAD5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43854100652B2BE1B27E0583 /* Pods-RainOrShine.debug.xcconfig */,
+				001AF2EA565B897E34D39409 /* Pods-RainOrShine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DA7A7B5256A32B8002A0E82 = {
+			isa = PBXGroup;
+			children = (
+				9DA7A7C0256A32B8002A0E82 /* RainOrShine */,
+				9DA7A7BF256A32B8002A0E82 /* Products */,
+				9DA7A7D8256A5123002A0E82 /* image.png */,
+				2F0C75552546F695CFBAD5E5 /* Pods */,
+				1186D6D7554BB9ACE92FE62B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA7A7BF256A32B8002A0E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7A7BE256A32B8002A0E82 /* RainOrShine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA7A7C0256A32B8002A0E82 /* RainOrShine */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7A7C1256A32B8002A0E82 /* AppDelegate.swift */,
+				9DA7A7C3256A32B8002A0E82 /* SceneDelegate.swift */,
+				9DA7A7C5256A32B8002A0E82 /* ViewController.swift */,
+				9DA7A7DA256A59C7002A0E82 /* Podfile */,
+				9DA7A7C7256A32B9002A0E82 /* Main.storyboard */,
+				9DA7A7CD256A32BB002A0E82 /* Assets.xcassets */,
+				9DA7A7CF256A32BB002A0E82 /* LaunchScreen.storyboard */,
+				9DA7A7D2256A32BB002A0E82 /* Info.plist */,
+				9DA7A7CA256A32B9002A0E82 /* RainOrShine.xcdatamodeld */,
+			);
+			path = RainOrShine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA7A7BD256A32B8002A0E82 /* RainOrShine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA7A7D5256A32BB002A0E82 /* Build configuration list for PBXNativeTarget "RainOrShine" */;
+			buildPhases = (
+				4AABA64E18A82E0B8FDDE60D /* [CP] Check Pods Manifest.lock */,
+				9DA7A7BA256A32B8002A0E82 /* Sources */,
+				9DA7A7BB256A32B8002A0E82 /* Frameworks */,
+				9DA7A7BC256A32B8002A0E82 /* Resources */,
+				B70A22F3480D5650B1EA4A08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainOrShine;
+			productName = RainOrShine;
+			productReference = 9DA7A7BE256A32B8002A0E82 /* RainOrShine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA7A7B6256A32B8002A0E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Salvatore Giugno";
+				TargetAttributes = {
+					9DA7A7BD256A32B8002A0E82 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DA7A7B9256A32B8002A0E82 /* Build configuration list for PBXProject "RainOrShine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA7A7B5256A32B8002A0E82;
+			productRefGroup = 9DA7A7BF256A32B8002A0E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA7A7BD256A32B8002A0E82 /* RainOrShine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA7A7BC256A32B8002A0E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7A7DB256A59C7002A0E82 /* Podfile in Resources */,
+				9DA7A7D1256A32BB002A0E82 /* LaunchScreen.storyboard in Resources */,
+				9DA7A7CE256A32BB002A0E82 /* Assets.xcassets in Resources */,
+				9DA7A7C9256A32B9002A0E82 /* Main.storyboard in Resources */,
+				9DA7A7D9256A5123002A0E82 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AABA64E18A82E0B8FDDE60D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainOrShine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70A22F3480D5650B1EA4A08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainOrShine/Pods-RainOrShine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainOrShine/Pods-RainOrShine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RainOrShine/Pods-RainOrShine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA7A7BA256A32B8002A0E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7A7C6256A32B8002A0E82 /* ViewController.swift in Sources */,
+				9DA7A7C2256A32B8002A0E82 /* AppDelegate.swift in Sources */,
+				9DA7A7CC256A32B9002A0E82 /* RainOrShine.xcdatamodeld in Sources */,
+				9DA7A7C4256A32B8002A0E82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA7A7C7256A32B9002A0E82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA7A7C8256A32B9002A0E82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA7A7CF256A32BB002A0E82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA7A7D0256A32BB002A0E82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA7A7D3256A32BB002A0E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DA7A7D4256A32BB002A0E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA7A7D6256A32BB002A0E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43854100652B2BE1B27E0583 /* Pods-RainOrShine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US4DKH4D2Y;
+				INFOPLIST_FILE = RainOrShine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example119922283377561.RainOrShine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA7A7D7256A32BB002A0E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001AF2EA565B897E34D39409 /* Pods-RainOrShine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US4DKH4D2Y;
+				INFOPLIST_FILE = RainOrShine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example119922283377561.RainOrShine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA7A7B9256A32B8002A0E82 /* Build configuration list for PBXProject "RainOrShine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7A7D3256A32BB002A0E82 /* Debug */,
+				9DA7A7D4256A32BB002A0E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA7A7D5256A32BB002A0E82 /* Build configuration list for PBXNativeTarget "RainOrShine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7A7D6256A32BB002A0E82 /* Debug */,
+				9DA7A7D7256A32BB002A0E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DA7A7CA256A32B9002A0E82 /* RainOrShine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DA7A7CB256A32B9002A0E82 /* RainOrShine.xcdatamodel */,
+			);
+			currentVersion = 9DA7A7CB256A32B9002A0E82 /* RainOrShine.xcdatamodel */;
+			path = RainOrShine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DA7A7B6256A32B8002A0E82 /* Project object */;
+}
